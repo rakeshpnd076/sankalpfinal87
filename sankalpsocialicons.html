@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankalp Cancer Care Foundation NGO</title>
+  <link rel="shortcut icon" href="./sankalpphotos/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Social media icon css */
+        .wrapper {
+            position: fixed;
+            top: 50%;
+            left: 2%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+        }
+
+        .wrapper ul {
+            list-style: none;
+        }
+
+        .wrapper ul li {
+            width: 50px;
+            height: 50px;
+            position: relative;
+            background: #e59500;
+            margin: 10px 0;
+            cursor: pointer;
+            border-radius: 3px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .wrapper ul li a {
+            color: white;
+        }
+
+        .wrapper ul li .fa {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .wrapper ul li.facebook {
+            background: #3b5998;
+            border-radius: 20%;
+        }
+
+        .wrapper ul li.twitter {
+            background: #00aced;
+            border-radius: 20%;
+        }
+
+        .wrapper ul li.instagram {
+            background: #bc2a8d;
+            border-radius: 20%;
+        }
+
+        .wrapper ul li.linkedin {
+            background: rgb(10 102 194);
+            border-radius: 20%;
+        }
+
+        .wrapper ul li.whatsapp {
+            background: #4dc247;
+            border-radius: 20%;
+        }
+
+        .wrapper ul li.facebook div.slider {
+            background: #627aac;
+        }
+
+        .wrapper ul li.twitter div.slider {
+            background: #7fd5f6;
+        }
+
+        .wrapper ul li.instagram div.slider {
+            background: #dd94c6;
+        }
+
+        .wrapper ul li.linkedin div.slider {
+            background: rgb(52, 138, 224);
+        }
+
+        .wrapper ul li.whatsapp div.slider {
+            background: #82d47e;
+        }
+
+        .wrapper .slider {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 51px;
+            width: 0px;
+            height: 50px;
+            background: #eebb5c;
+            border-radius: 3px;
+            transition: all 0.5s 0.3s ease;
+        }
+
+        .wrapper .slider p {
+            font-family: arial;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 900;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .wrapper ul li:hover .slider {
+            width: 180px;
+            transition: all 0.3s ease;
+        }
+
+        .wrapper ul li:hover .slider p {
+            opacity: 1;
+            transition: all 1s 0.2s ease;
+        }
+
+        /* social media icon end */
+
+
+        @media screen and (min-width:2000px) and (max-width:10000px) {
+            .wrapper {
+                left: 5%;
+                /* top: 20%; */
+            }
+
+            .wrapper .slider {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 101px;
+                width: 0px;
+                height: 100px;
+                background: #eebb5c;
+                border-radius: 3px;
+                transition: all 0.5s 0.3s ease;
+            }
+
+            .wrapper ul li {
+                width: 100px;
+                height: 100px;
+            }
+
+            .wrapper ul li:hover .slider {
+                width: 250px;
+
+            }
+
+            .wrapper .slider p {
+                font-size: 18px;
+                line-height: 100px;
+
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Social icons -->
+    <div class="wrapper">
+        <ul>
+            <li class="facebook">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <div class="slider">
+                    <p><a href="https://www.facebook.com/sankalpcancercare" target="_blank">facebook</a></p>
+                </div>
+            </li>
+
+            <li class="twitter">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <div class="slider">
+                    <p><a href="https://twitter.com/i/flow/login" target="_blank">twitter</a></p>
+                </div>
+            </li>
+
+            <li class="instagram">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <div class="slider">
+                    <p><a href="https://www.instagram.com" target="_blank">instagram</a></p>
+                </div>
+            </li>
+
+            <li class="linkedin">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                <div class="slider">
+                    <p><a href="https://in.linkedin.com/in/sankalp-cancer-care-foundation-a21032213"
+                            target="_blank">Linkedin</a>
+                    </p>
+                </div>
+            </li>
+
+            <li class="whatsapp">
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <div class="slider">
+                    <p><a href="https://api.whatsapp.com/send?phone=9999604271">Send Message</a></p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

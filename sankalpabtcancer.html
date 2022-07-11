@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankalp Cancer Care Foundation NGO</title>
+  <link rel="shortcut icon" href="./sankalpphotos/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" href="./sankalpnavbar.html">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+body{
+    padding:0 1.5% 0 1.5% ;
+}
+        /* h1 part */
+        h1 {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 10px;
+        }
+
+        h1:before,
+        h1:after {
+            content: "";
+            flex: 1 1;
+            border-bottom: 1px solid;
+            margin: auto;
+        }
+
+        h1:before {
+            margin-right: 10px
+        }
+
+        h1:after {
+            margin-left: 10px
+        }
+
+        .a {
+            width: 100%;
+            /* background-image: linear-gradient(160deg, rgb(180, 180, 180), rgb(77, 77, 77) 71%); */
+            height: max-content;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            color: aliceblue;
+            padding: 0px 40px;
+
+
+        }
+
+        /* .achild {
+            width: 300px;
+
+            margin: 12px auto;
+            font-size: 20px;
+        } */
+
+        /* flip part */
+
+        .flip-box {
+            background-color: transparent;
+            width: 300px;
+            height: 200px;
+            perspective: 1000px;
+            margin: 20px auto;
+
+        }
+
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-box-front,
+        .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-box-front {
+            background-color: transparent;
+            color: black;
+        }
+
+        .flip-box-back {
+            background-color: transparent;
+            color: rgb(10, 10, 10);
+            margin-top: 5rem;
+            transform: rotateY(180deg);
+        }
+
+        @media (max-width:380px) {
+
+            .flip-box img {
+                width: 220px !important;
+                height: 150px;
+            }
+
+            .a {
+                padding: 0;
+                margin: auto;
+            }
+
+
+
+        }
+
+        @media (max-width:650px) {
+
+
+            .a {
+                padding: 0px 15px;
+            }
+
+            .flip-box {
+                margin: 5px auto;
+                width: 90%;
+
+
+            }
+        }
+
+        @media screen and (min-width:900px) and (max-width:1300px) {
+            .flip-box {
+                width: 45%;
+                height: 300px;
+            }
+        }
+
+
+        @media screen and (min-width:1600px) and (max-width:10000px) {
+            body {
+                width: 1450px;
+                margin: auto;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar  -->
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("sankalpnavbar.html");
+        });
+    </script>
+    <!-- social icons  -->
+    <div id="social-placeholder">
+
+    </div>
+    <script>
+        $(function () {
+            $("#social-placeholder").load("sankalpsocialicons.html");
+        });
+    </script>
+    <br>
+    <h1>Signs & Symptions</h1>
+    <div class="a">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-7.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-9.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-20.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-33.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+    <div class="a">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-21.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-22.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-34.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="./sankalpphotos/Asset-32.png" alt="Paris" style="width:300px;height:200px">
+                </div>
+                <div class="flip-box-back">
+                    <h2>Be Care Save Our Life</h2>
+                    <p>Show any Symptions Contact to Doctors</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <br>
+    <div id="footer-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#footer-placeholder").load("sankalpfooter.html");
+        });
+    </script>
+
+</body>
+
+</html>

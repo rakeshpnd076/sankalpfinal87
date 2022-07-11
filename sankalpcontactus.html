@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sankalp Cancer Care Foundation NGO</title>
+  <link rel="shortcut icon" href="./sankalpphotos/logo1.png" type="image/x-icon">
+  <!-- Fontawesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+    }
+    body{
+      padding:0 1.5% 0 1.5% ;
+    }
+
+    /* body {
+      min-height: 100vh;
+      width: 100%;
+       background: #c8e8e9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }  */
+
+    .container {
+      width: 100%;
+      background: rgb(238, 238, 238);
+      border-radius: 6px;
+      padding: 20px 60px 30px 40px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+      /* background: #c8e8e9;
+      display: flex;
+      align-items: center;
+      justify-content: center; */
+    }
+
+    .container .content {
+      /* display: flex; */
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .container .content .left-side {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      margin-top: 15px;
+      position: relative;
+    }
+
+
+
+    .content .left-side .details {
+      margin: 34px;
+      text-align: center;
+    }
+
+    .content .left-side .details i {
+      font-size: 30px;
+      color: #3e2093;
+      margin-bottom: 10px;
+    }
+
+    .content .left-side .details .topic {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .content .left-side .details .text-one,
+    .content .left-side .details .text-two {
+      font-size: 14px;
+      color: #0a0a0a;
+    }
+
+    .container .content .right-side {
+      width: 40%;
+      margin-left: 75px;
+    }
+
+    .content .right-side .topic-text {
+      font-size: 30px;
+      font-weight: 600;
+      color: #3e2093;
+      margin: 15px auto;
+      text-align: center;
+    }
+
+    .right-side .input-box {
+      height: 50px;
+      width: 100%;
+      margin: 12px 0;
+    }
+
+    .right-side .input-box input,
+    .right-side .input-box textarea {
+      height: 100%;
+      width: 100%;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      background: #cecece;
+      border-radius: 6px;
+      padding: 0 15px;
+      resize: none;
+    }
+
+    .right-side .message-box {
+      min-height: 110px;
+    }
+
+    .right-side .input-box textarea {
+      padding-top: 6px;
+    }
+
+    .right-side .button {
+      display: inline-block;
+      margin-top: 12px;
+    }
+
+    .right-side .button input[type="button"] {
+      color: #fff;
+      font-size: 18px;
+      outline: none;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      background: #3e2093;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .button input[type="button"]:hover {
+      background: #5029bc;
+    }
+
+    iframe {
+      margin-left: 25px;
+    }
+
+    #sid {
+      display: flex;
+
+    }
+
+    @media (max-width: 950px) {
+      .container {
+        width: 100%;
+        padding: 30px 40px 40px 35px;
+      }
+
+      .container .content .right-side {
+        width: 75%;
+        margin-left: 55px;
+      }
+    }
+
+    @media (max-width: 820px) {
+
+
+      .container .content {
+        flex-direction: column-reverse;
+      }
+
+      .container .content .left-side {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+      }
+
+
+      .container .content .right-side {
+        width: 80%;
+        margin-left: 10px;
+        margin: auto;
+      }
+
+      .right-side .button input[type="button"] {
+        margin-bottom: 20px;
+
+
+      }
+
+      iframe {
+        width: 90%;
+      }
+
+      #sid {
+        flex-wrap: wrap;
+
+      }
+    }
+
+
+
+    @media screen and (min-width:1600px) and (max-width:10000px) {
+      body {
+        width: 1450px;
+        margin: auto;
+      }
+
+
+
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- navbar  -->
+  <div id="nav-placeholder">
+
+  </div>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("sankalpnavbar.html");
+    });
+  </script>
+  <!-- social icons  -->
+  <div id="social-placeholder">
+
+  </div>
+  <script>
+    $(function () {
+      $("#social-placeholder").load("sankalpsocialicons.html");
+    });
+  </script>
+
+  <div class="container">
+
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">H. No. 24, 25, Kh. No 107/23 Qutub Vihar Phase</div>
+          <div class="text-two">New Delhi - 110071</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+(91)- 9999604271</div>
+          <div class="text-two">+91-9999602769</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one"> sankalpcancerfoundation@gmail.com</div>
+
+        </div>
+      </div>
+      <div id="sid">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.909626457263!2d77.02078731508126!3d28.57247638244153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1a9065e2b57d%3A0x8d0eacf8217c0938!2sSankalp%20Cancer%20Care%20Foundation!5e0!3m2!1sen!2sin!4v1655188696228!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="right-side">
+          <div class="topic-text">Send us a message</div>
+
+          <form action="#">
+            <div class="input-box">
+              <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="input-box">
+              <input type="text" placeholder="Enter your email">
+            </div>
+            <div class="input-box message-box">
+              <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div class="button">
+              <input type="button" value="submit">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer-placeholder">
+
+  </div>
+
+  <script>
+    $(function () {
+      $("#footer-placeholder").load("sankalpfooter.html");
+    });
+  </script>
+</body>
+
+</html>
